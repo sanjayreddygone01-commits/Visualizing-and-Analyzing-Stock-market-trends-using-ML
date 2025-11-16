@@ -10,9 +10,9 @@ The methodology involves several steps:
 -> Clean the data to remove any inconsistencies or missing values.
 >  Normalize the data to scale it down for better performance with LSTM models.
 -> Split the data into training and testing datasets.
--> Model Design (LSTM Network):
 
-Define an LSTM model architecture. A typical LSTM model for time-series forecasting has layers such as:
+
+A typical LSTM model for time-series forecasting has layers such as:
 ->	Input Layer: Accepts the input sequence data (stock prices over a period).
 -> LSTM Layers: One or more LSTM layers with units that can retain the memory of past data points.
 -> Dense Layer: Used to map the output of LSTM layers to a desired output format (e.g., predicted stock prices).
